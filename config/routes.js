@@ -12,5 +12,8 @@ module.exports.routes = {
 
     'POST /account/login': 'account/login',
     'POST /account/signup': 'account/signup',
-    'POST /share/borrower': 'share/borrower-info'
+    'POST /share/borrower': 'share/borrower-info',
+
+    'POST /mbr/apply': 'mbr/apply',
+    'POST /mbr/addinfo': 'mbr/addinfo'
 };
