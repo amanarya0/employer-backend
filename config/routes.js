@@ -15,4 +15,5 @@ module.exports.routes = {
     'POST /share/borrower': 'share/borrower-info',
 
     'POST /mbr/apply': 'mbr/apply',
+    'POST /mbr/addinfo': 'mbr/addinfo'
 };

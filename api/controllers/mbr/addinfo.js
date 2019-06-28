@@ -41,7 +41,7 @@ module.exports = {
             app = await Application.findOne({ name: inputs.name });
 
         }
-        if (null == app) {
+        if (null === app) {
             return exits.appNotFound({ message: 'Application not found' });
         }
         await Application.update({ name: inputs.name }).set({ status: 'Application Processed Successfully' });

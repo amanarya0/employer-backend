@@ -51,19 +51,19 @@ module.exports = {
         if (null != existingApp) {
             return exits.appAlreadyExists({ message: 'Application already present' });
         }
-        if (null == inputs.name) {
+        if (null === inputs.name) {
             hasError = true;
             error += 'name, ';
         }
-        if (null == inputs.phone) {
+        if (null === inputs.phone) {
             hasError = true;
             error += 'phone number, ';
         }
-        if (null == inputs.address) {
+        if (null === inputs.address) {
             hasError = true;
             error += 'address, ';
         }
-        if (null == inputs.employer) {
+        if (null === inputs.employer) {
             hasError = true;
             error += 'employer name';
         }
